@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/task1.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="flex">
+                    <div class="sign-up">
+                        <div class="signup">
+                            <div class="headings">
+                                <span>Name: </span>
+                                <span>Surname: </span>
+                                <span>Age: </span>
+                            </div>
+                            <form action="">
+                                <input type="text" class="name" id="">
+                                <span class="error">*Enter a name</span>
+                                <input type="text" class="surname" id="">
+                                <span class="error">*Enter a surname</span>
+                                <input type="number" class="age" id="" min="1" max="150">
+                                <span class="error">*Enter an age</span>
+                                <button>Sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Surname</th>
+                                        <th>Age </th>
+                                        <th>Remove</th>
+                                        <th>Update</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="burger">
+                            <i class="fa-solid fa-burger burgerIcon"></i>
+                            <i class="fa-solid fa-circle-minus minusIcon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="modal">
+                        <div class="box">
+                            <div class="heading">
+                                <h3>Update your info</h3>
+                            </div>
+                            <form action="">
+                                <input type="text" class="name" id="" placeholder="Name:">
+                            </form>
+                            <div class="sliderBtn">
+                                <div class="left">
+                                    <i class="fa-solid fa-caret-left "></i>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-caret-right "></i>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <button class="up-date">Update</button>
+                                <button class="cancel">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" style="display: none;">
+                        <div class="box">
+                            <div class="heading">
+                                <h3>Update your info</h3>
+                            </div>
+                            <form action="">
+                                <input type="text" class="surname" id="" placeholder="Surname:">
+                            </form>
+                            <div class="sliderBtn">
+                                <div class="left">
+                                    <i class="fa-solid fa-caret-left left"></i>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-caret-right right"></i>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <button class="up-date">Update</button>
+                                <button class="cancel">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" style="display: none;">
+                        <div class="box">
+                            <div class="heading">
+                                <h3>Update your info</h3>
+                            </div>
+                            <form action="">
+                                <input type="number" class="age" id="" min="1" max="150" placeholder="Age:">
+                            </form>
+                            <div class="sliderBtn">
+                                <div class="left">
+                                    <i class="fa-solid fa-caret-left"></i>
+                                </div>
+                                <div class="right">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <button class="up-date">Update</button>
+                                <button class="cancel">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/81978b2f48.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/task1.js"></script>
+
+</body>
+
+</html>
